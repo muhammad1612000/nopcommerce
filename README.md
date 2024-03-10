@@ -1,6 +1,6 @@
 # swag labs
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.foremostmedia.com%2Fwebsite-development%2Fhosting%2Fnopcommerce-hosting&psig=AOvVaw3nIV4nPQDg1iErWeSuoGmb&ust=1710162439627000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiZqtjh6YQDFQAAAAAdAAAAABAE" alt="GitHub Logo">
+<img src="https://www.foremostmedia.com/portals/0/Images/webpImages/NopCommerce/nopcommerce-logo.webp" alt="GitHub Logo">
 
 ## Table of Contents
 
