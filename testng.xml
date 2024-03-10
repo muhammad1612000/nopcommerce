@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name ="check register">
+        <classes>
+            <class name="testcases.T01_register">
+                <methods>
+                    <include name="registernew_p"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="check login">
+        <classes>
+            <class name="testcases.T02_login">
+                <methods>
+                    <include name="login_p"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+<test name="check reset password">
+<classes>
+    <class name="testcases.T03_reset_password">
+        <methods>
+            <include name="reset_password_p"/>
+        </methods>
+    </class>
+</classes>
+</test>
+<test name="check search">
+<classes>
+    <class name="testcases.T04_search">
+        <methods>
+            <include name="search_p"/>
+        </methods>
+    </class>
+</classes>
+</test>
+
+
+<test name="check change currecny">
+<classes>
+    <class name="testcases.T05_change_currency">
+        <methods>
+            <include name="currency_change"/>
+        </methods>
+    </class>
+</classes>
+</test>
+<test name="change color">
+<classes>
+    <class name="testcases.T06_colorchange">
+        <methods>
+            <include name="choose_color_p"/>
+        </methods>
+    </class>
+</classes>
+</test>
+<test name="add prodcut">
+        <classes>
+            <class name="testcases.T07_add_product">
+                <methods>
+                    <include name="add_produc_to_cart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="wishlist">
+        <classes>
+            <class name="testcases.T08_add_wishlist">
+                <methods>
+                    <include name="add_to_wishlist"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="comparelist">
+        <classes>
+            <class name="testcases.T09_add_to_comparelist">
+                <methods>
+                    <include name="add_to_compare_list"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="complete order">
+        <classes>
+            <class name="testcases.T012_order">
+                <methods>
+                    <include name="complete_order"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
